@@ -66,7 +66,7 @@ export default App = () => {
           <Image
             style={styles.weatherImage}
             source={{uri: `https:${weatherData.current.condition.icon}`}  }
-          />
+        />
 
         </View>
         </View>       
